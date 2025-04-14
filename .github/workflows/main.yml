@@ -6,6 +6,6 @@ jobs:
       - id: sets-a-secret
         name: Generate, mask, and output a secret
         run: |
-          echo "${{ secrets.MYPASSWORD }}
+          echo "${{ secrets.MYPASSWORD }}"
           echo "${{ vars.VAR_CONNECTION }}"
 
