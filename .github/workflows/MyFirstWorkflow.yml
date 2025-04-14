@@ -24,6 +24,10 @@ on:
       environment:
         description: 'Environment to run tests against'
         type: environment
+        options:
+        - production
+        - staging
+        - test
         required: true
 
 jobs:
