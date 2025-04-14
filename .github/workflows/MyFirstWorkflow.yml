@@ -23,7 +23,7 @@ on:
         type: boolean
       environment:
         description: 'Environment to run tests against'
-        type: environment
+        type: choice
         options:
         - production
         - staging
